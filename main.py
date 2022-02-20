@@ -21,7 +21,7 @@ def product_details(choice):
             print("You are buying", quan, size, "sized trousers")
             addAmount(quan * 1500)
             mydict.append(
-                {'Product Name': 'Trousers', 'Quantity Purchased': quan, 'MRP': 1500, 'Total Amount': total_amount})
+                {'Product Name': 'Trousers', 'Quantity Purchased': quan, 'MRP': 1500, 'Total Amount': quan * 1500})
             display_products()
         else:
             display_products()
@@ -36,7 +36,7 @@ def product_details(choice):
             print("You are buying", quan, size, "sized Shirt")
             addAmount(quan * 1000)
             mydict.append(
-                {'Product Name': 'Shirt', 'Quantity Purchased': quan, 'MRP': 1500, 'Total Amount': total_amount})
+                {'Product Name': 'Shirt', 'Quantity Purchased': quan, 'MRP': 1500, 'Total Amount': quan * 1000})
             display_products()
         else:
             display_products()
@@ -51,7 +51,7 @@ def product_details(choice):
             print("You are buying", quan, size, "sized T-Shirt")
             addAmount(quan * 700)
             mydict.append(
-                {'Product Name': 'T-Shirt', 'Quantity Purchased': quan, 'MRP': 700, 'Total Amount': total_amount})
+                {'Product Name': 'T-Shirt', 'Quantity Purchased': quan, 'MRP': 700, 'Total Amount': quan * 700})
             display_products()
         else:
             display_products()
@@ -66,7 +66,7 @@ def product_details(choice):
             print("You are buying", quan, size, "sized Jeans")
             addAmount(quan * 1200)
             mydict.append(
-                {'Product Name': 'Jeans', 'Quantity Purchased': quan, 'MRP': 1200, 'Total Amount': total_amount})
+                {'Product Name': 'Jeans', 'Quantity Purchased': quan, 'MRP': 1200, 'Total Amount': quan * 1200})
             display_products()
         else:
             display_products()
@@ -81,7 +81,7 @@ def product_details(choice):
             print("You are buying", quan, size, "sized Kurtas")
             addAmount(quan * 500)
             mydict.append(
-                {'Product Name': 'Kurtas', 'Quantity Purchased': quan, 'MRP': 500, 'Total Amount': total_amount})
+                {'Product Name': 'Kurtas', 'Quantity Purchased': quan, 'MRP': 500, 'Total Amount': quan * 500})
             display_products()
         else:
             display_products()
